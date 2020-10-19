@@ -1,29 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Product Revision="1" xmlns="https://github.com/OpenZWave/open-zwave">
   <!-- Please refer to https://github.com/OpenZWave/open-zwave/wiki/Adding-Devices for instructions -->
   <MetaData>
-    <MetaDataItem name="Name"><!-- Name of the Device --></MetaDataItem>
-    <MetaDataItem name="Description"><!-- Short Description of the Product --></MetaDataItem>
+    <MetaDataItem name="Name">ZW4SF-1BW Decora Smart 4-Speed Fan Controller</MetaDataItem>
+    <MetaDataItem name="Description">4-Speed Fan Controller</MetaDataItem>
     <MetaDataItem name="OzwInfoPage">http://www.openzwave.com/device-database/XXXX:YYYY:ZZZZ</MetaDataItem>
-    <MetaDataItem name="ProductPage"><!-- URL to the Product Page on the Vendors Website --></MetaDataItem>
-    <MetaDataItem name="ProductSupport"><!-- URL to the Product Support Page on the Vendors Website --></MetaDataItem>
-    <MetaDataItem name="ProductPic"><!-- path to images/vendor/product.png --></MetaDataItem>
-    <MetaDataItem name="ProductManual"><!-- URL to the product manual. - Prefer to use something hosted on the products.z-wavealliance.org pages --></MetaDataItem>
-    <MetaDataItem name="WakeupDescription"><!-- Short description on how to wake up the device if its battery powered --></MetaDataItem>
-    <MetaDataItem name="InclusionDescription"><!-- Short Description on how to include the device --> </MetaDataItem>
-    <MetaDataItem name="ExclusionDescription"><!-- Short Description on how to exclude the device --></MetaDataItem>
-    <MetaDataItem name="ResetDescription"><!-- Short Description on how to Factory Reset the Device --></MetaDataItem>
-    <MetaDataItem id="XXXX" name="ZWProductPage" type="XXXX"><!-- url to https://products.z-wavealliance.org/products/XXXX/ page for this specific version of the device --></MetaDataItem>
-    <MetaDataItem id="YYYY" name="ZWProductPage" type="YYYY"><!-- url to https://products.z-wavealliance.org/products/YYYY/ page for this specific version of the device --></MetaDataItem>
-    <MetaDataItem id="ZZZZ" name="ZWProductPage" type="ZZZZ"><!-- url to https://products.z-wavealliance.org/products/YYYY/ page for this specific version of the device --></MetaDataItem>
-    <MetaDataItem id="XXXX" name="FrequencyName" type="XXXX"><!-- Region for this version of the device --></MetaDataItem>
-    <MetaDataItem id="YYYY" name="FrequencyName" type="YYYY"><!-- Region for this version of the device --></MetaDataItem>
-    <MetaDataItem id="ZZZZ" name="FrequencyName" type="ZZZZ"><!-- Region for this version of the device --></MetaDataItem>
-    <MetaDataItem id="XXXX" name="Identifier" type="XXXX"><!-- Manufacturers Product Code --></MetaDataItem>
-    <MetaDataItem id="YYYY" name="Identifier" type="YYYY"><!-- Manufacturers Product Code --></MetaDataItem>
-    <MetaDataItem id="ZZZZ" name="Identifier" type="ZZZZ"><!-- Manufacturers Product Code --> </MetaDataItem>
+    <MetaDataItem name="ProductPage">https://www.leviton.com/en/products/zw4sf-1bz</MetaDataItem>
+    <MetaDataItem name="ProductSupport">https://decorasmartsupport.zendesk.com/hc/en-us/categories/360001408833-Decora-Smart-Z-Wave</MetaDataItem>
+    <MetaDataItem name="ProductPic">images/leviton/zw4sf.png --></MetaDataItem>
+    <MetaDataItem name="ProductManual">https://products.z-wavealliance.org/ProductManual/File?folder=&filename=product_documents/3832/Draft%20ZW4SF%203-25-20.pdf</MetaDataItem>
+    <MetaDataItem name="InclusionDescription">
+      Hold the top paddle button for 7 seconds. 
+      Bottom light will turn amber, release. 
+      Tap the top paddle 1 time. 
+      Light will quickly flash green.</MetaDataItem>
+    <MetaDataItem name="ExclusionDescription">
+      Hold the top paddle button for 7 seconds. 
+      Bottom light will turn amber, release. 
+      Tap the top paddle 1 time. 
+      Light will quickly flash green.</MetaDataItem>
+    <MetaDataItem name="ResetDescription">
+      Hold top of the paddle for 7 seconds
+      Light will turn amber.
+      Continue holding for another 7 seconds (total of 14 seconds).
+      Light will quickly flash red and amber.
+      Release the top paddle and the device will reset.</MetaDataItem>
+    <MetaDataItem id="001d" name="ZWProductPage" type="0038">https://products.z-wavealliance.org/products/3832</MetaDataItem>
+    <MetaDataItem id="001d" name="FrequencyName" type="0038">U.S. / Canada / Mexico</MetaDataItem>
+    <MetaDataItem id="001d" name="Identifier" type="0038">078477588543</MetaDataItem>
     <ChangeLog>
-      <Entry author="XXXXX - joe@gmail.com" date="01 May 2019" revision="1"><!-- For Revision 1 - Short entry describing where you got the info --></Entry>
-      <Entry author="XXXXX - joe@gmail.com" date="08 May 2019" revision="2"><!-- Add a ChangeLog Entry describing any changes you made to this file --></Entry>
+      <Entry author="chanse.arrington@gmail.com" date="18 October 2020" revision="1"></Entry>
     </ChangeLog>
   </MetaData>
   <!-- Configuration Command Class - All Configuration Parameters should be entered into the section below -->
